@@ -1,11 +1,13 @@
+import article2Img from '../assets/blog-image-2.jpg'
+
 function Article2() {
     return(
         <article>
-        <h3>11/11/20</h3>
+         <time dateTime="2020-11-11">11/11/20</time>
         <h2>Vintage in Vogue</h2>
         <img
-          src="./images/blog-image-2.jpg"
-          alt="Three vintage-style brown handbags"
+          src={article2Img}
+          alt=""
         />
         <p>
           <span className="dropcap">S</span>ffles kunt, ocor il amit consectetur

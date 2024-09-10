@@ -1,9 +1,14 @@
+import article1Img from "../assets/blog-image-1.jpg";
+
 function Article1() {
     return(
         <article>
         <h2>On the Street in Brooklyn</h2>
-        <h2></h2>
-        <h3>11/12/20</h3>
+        <time dateTime="2020-11-12">11/12/20</time>
+        <div>
+          <img 
+        src={article1Img} alt="" />
+        </div>
         <p>
           <span className="dropcap">C</span>ray van dikor ak aret simictetuer
           adipiscing lt. Rapelle quidem deurs hema dignitatrui Aga venun
@@ -14,10 +19,7 @@ function Article1() {
           opto odin;quil it archtecio incedit comouur nes ouserat volgtastka
           pariatur quit qoud quindi
         </p>
-        <img 
-        src="./images/blog-image-1.jpg" 
-        alt="Image of Brooklyn Street"
-        />
+        
         <a href="#">Continues...</a>
       </article>  
     );

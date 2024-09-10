@@ -1,0 +1,76 @@
+/* Basic styling */
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* For main navigation */
+nav ul li a {
+    color: lightgray; 
+}
+
+/* Footer navigation styling */
+footer nav ul li a {
+    color: tomato;
+}
+
+/* Article styling */
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article h2 {
+    font-size: 1.5rem;
+}
+
+article p::first-letter {
+    color: lightgray;
+    font-size: 2rem;
+    float: left;
+    line-height: 1;
+    margin-right: 0.5rem;
+}
+
+/* 'Continues...' styling */
+article a {
+    color: tomato;
+    font-weight: bold;
+    text-align: right; /* Aligns to the right */
+    display: block; /* Ensures block-level alignment */
+    margin-top: 1rem; /* Adds spacing above the link */
+}
+
+/* Copyright styling */
+footer p {
+    color: lightgray;
+}
